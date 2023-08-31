@@ -96,7 +96,7 @@
                     </f:facet>
                     <af:panelFormLayout id="pfl1" maxColumns="2" rows="5" partialTriggers="b2">
                         <af:inputText value="#{bindings.TravelRequestNo.inputValue}" readOnly="true"
-                                      label="#{bindings.TravelRequestNo.hints.label}"
+                                      label="req num"
                                       required="#{bindings.TravelRequestNo.hints.mandatory}"
                                       columns="#{bindings.TravelRequestNo.hints.displayWidth}"
                                       maximumLength="#{bindings.TravelRequestNo.hints.precision}"
